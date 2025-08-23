@@ -1,0 +1,7 @@
+AddType application/wasm .wasm
+
+<IfModule mod_deflate.c>
+  AddOutputFilterByType DEFLATE application/wasm
+  AddOutputFilterByType DEFLATE application/octet-stream
+  AddOutputFilterByType DEFLATE application/javascript
+</IfModule>

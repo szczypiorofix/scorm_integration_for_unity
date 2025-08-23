@@ -1,0 +1,28 @@
+{
+  "name": "com.szczypiorofix.scormintegration",
+  "version": "1.0.1",
+  "displayName": "SCORM Integration Helper",
+  "description": "A simple module for integrating WebGL projects with LMS using the SCORM standard.\nIncludes a ready-made template and communication scripts.\nThe project also contains an example scene (Samples~/ExampleScene/ExampleIntegrationScene), which demonstrates a very simple integration and operation of the package. It is best to import this scene using the Samples tab and selecting Import for the provided example scene.",
+  "unity": "6000.0",
+  "unityRelease": "28f1",
+  "samples": [
+    {
+      "displayName": "SCORM API SampleScene",
+      "description": "Contains a scene with SCORM API integration and attached scripts for WebGL communication.",
+      "path": "Samples~/ExampleScene"
+    }
+  ],
+  "keywords": [
+    "scorm",
+    "lms",
+    "webgl",
+    "e-learning"
+  ],
+  "dependencies": {
+    "com.unity.textmeshpro": "3.0.6"
+  },
+  "author": {
+    "name": "Piotr Wroblewski",
+    "email": "szczypiorofix@o2.pl"
+  }
+}
