@@ -1,7 +1,7 @@
 var ScormAPILibrary = {
     ScormInitialize: function() {
         if (!pipwerks.SCORM) {
-            console.error("SCORM wrapper (pipwerks.SCORM) not found! Check script load order in index.html.");
+            ScormHelper.ScormNotFoundError();
             return;
         }
 
@@ -11,7 +11,7 @@ var ScormAPILibrary = {
 
     ScormSetValue: function(element, value) {
         if (!pipwerks.SCORM) {
-            console.error("SCORM wrapper (pipwerks.SCORM) not found! Check script load order in index.html.");
+            ScormHelper.ScormNotFoundError();
             return;
         }
 
@@ -23,7 +23,7 @@ var ScormAPILibrary = {
 
     ScormCommit: function() {
         if (!pipwerks.SCORM) {
-            console.error("SCORM wrapper (pipwerks.SCORM) not found! Check script load order in index.html.");
+            ScormHelper.ScormNotFoundError();
             return;
         }
         
@@ -33,7 +33,7 @@ var ScormAPILibrary = {
 
     ScormFinish: function() {
         if (!pipwerks.SCORM) {
-            console.error("SCORM wrapper (pipwerks.SCORM) not found! Check script load order in index.html.");
+            ScormHelper.ScormNotFoundError();
             return;
         }
         
